@@ -4,6 +4,7 @@ body {
   height: 99vh;
   background: radial-gradient(circle, #d55d5d, #651a1a, #511515);
   background-repeat: no-repeat;
+  color: white;
 }
 
 .container {
@@ -25,21 +26,40 @@ body {
   align-items: center;
   color: white;
 }
-.name:hover {
-  transform: scale(1.2);
-}
+
 
 .logo {
 
   margin: 20px 20px 20px 20px;
 
 }
-.logo:hover {
-  transform: scale(1.1);
-}
+
 img {
   border-radius: 50%;
   border: solid 3px orange;
   height: 100px;
   width: 100px;
+}
+
+.mfc {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mfcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 128, 0, 0.5);
+  width: 20%;
+} .mfcc:hover {
+    transform:scale(1.05);
+}
+
+
+footer {
+  color: white;
 }
